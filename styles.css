@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --main-font-color: #202142;
+  --secondary-font-color: #000;
+  --button-bg-color: #202142;
+  --border-color: #c3c3e4;
+  --navbar-bg-color: #fcfcff;
+  --notification-color: #ff6a95;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  background-color: var(--navbar-bg-color);
+  border-bottom: 1px solid var(--border-color);
+}
+nav ul {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding: 0 4rem;
+  height: 120px;
+}
+
+.middle-el li {
+  padding: 0 3rem;
+  font-size: 1.6rem;
+  color: rgba(32, 33, 66, 0.8);
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.middle-el,
+.left-el,
+.right-el {
+  display: flex;
+  align-items: center;
+}
+
+.right-el {
+  gap: 1rem;
+}
+
+.right-el h4 {
+  font-size: 1.6rem;
+  color: #202142;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.left-el {
+  gap: 2rem;
+}
+
+.left-el .avatar {
+  width: 38px;
+  height: 38px;
+}
+
+.upload {
+  background-color: var(--button-bg-color);
+  font-size: 1.6rem;
+  color: white;
+  border: none;
+
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem 3rem;
+  border-radius: 1rem;
+
+  font-weight: 500;
+
+  font-family: "Poppins", sans-serif;
+}
+
+
+main{
+  display: flex;
+  align-items: flex-start;
+  max-width: 946px;
+  justify-content: space-evenly;
+}
